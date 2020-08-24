@@ -1,0 +1,636 @@
+2020-08-24 09:29:41.197 +08:00 [INF] Starting web host
+2020-08-24 09:29:43.076 +08:00 [INF] User profile is available. Using 'C:\Users\P52\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-24 09:29:43.197 +08:00 [INF] Loaded ABP modules:
+2020-08-24 09:29:43.197 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-08-24 09:29:43.197 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-08-24 09:29:43.197 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-08-24 09:29:43.197 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-08-24 09:29:43.197 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-08-24 09:29:43.198 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-08-24 09:29:43.199 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-08-24 09:29:43.199 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-08-24 09:29:43.199 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-08-24 09:29:43.199 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-08-24 09:29:43.199 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-08-24 09:29:43.199 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-08-24 09:29:43.199 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-08-24 09:29:43.199 +08:00 [INF] - DataCheckingToolApi.AppModule
+2020-08-24 09:29:43.632 +08:00 [INF] Initialized all ABP modules.
+2020-08-24 09:29:43.652 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-24 09:29:43.652 +08:00 [INF] Hosting environment: Development
+2020-08-24 09:29:43.652 +08:00 [INF] Content root path: C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi
+2020-08-24 09:29:43.712 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/weatherforecast  
+2020-08-24 09:29:43.748 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 09:29:43.819 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DataCheckingToolApi.WeatherForecast] Get() on controller DataCheckingToolApi.Controllers.WeatherForecastController (DataCheckingToolApi).
+2020-08-24 09:29:43.867 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingToolApi.WeatherForecast[]'.
+2020-08-24 09:29:44.003 +08:00 [INF] Executed action DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi) in 180.1924ms
+2020-08-24 09:29:44.006 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 09:29:44.007 +08:00 [INF] Request finished in 297.4476ms 200 application/json; charset=utf-8
+2020-08-24 10:09:56.556 +08:00 [INF] Starting web host
+2020-08-24 10:09:58.487 +08:00 [INF] User profile is available. Using 'C:\Users\P52\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-24 10:09:58.643 +08:00 [INF] Loaded ABP modules:
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-08-24 10:09:58.644 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-08-24 10:09:58.645 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-08-24 10:09:58.646 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-08-24 10:09:58.646 +08:00 [INF] - DataCheckingTool.EntityFrameworkCore.NPTransferEntityFrameworkCoreModule
+2020-08-24 10:09:58.646 +08:00 [INF] - DataCheckingToolApi.AppModule
+2020-08-24 10:09:59.070 +08:00 [INF] Initialized all ABP modules.
+2020-08-24 10:09:59.087 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-24 10:09:59.087 +08:00 [INF] Hosting environment: Development
+2020-08-24 10:09:59.087 +08:00 [INF] Content root path: C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi
+2020-08-24 10:09:59.137 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/weatherforecast  
+2020-08-24 10:09:59.172 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 10:09:59.250 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DataCheckingToolApi.WeatherForecast] Get() on controller DataCheckingToolApi.Controllers.WeatherForecastController (DataCheckingToolApi).
+2020-08-24 10:09:59.288 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingToolApi.WeatherForecast[]'.
+2020-08-24 10:09:59.412 +08:00 [INF] Executed action DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi) in 158.1188ms
+2020-08-24 10:09:59.415 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 10:09:59.416 +08:00 [INF] Request finished in 281.4326ms 200 application/json; charset=utf-8
+2020-08-24 16:42:20.796 +08:00 [INF] Starting web host
+2020-08-24 16:42:23.084 +08:00 [INF] User profile is available. Using 'C:\Users\P52\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-24 16:42:23.195 +08:00 [INF] Loaded ABP modules:
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-08-24 16:42:23.195 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-08-24 16:42:23.196 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-08-24 16:42:23.197 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-08-24 16:42:23.197 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-08-24 16:42:23.197 +08:00 [INF] - DataCheckingTool.EntityFrameworkCore.DCTEntityFrameworkCoreModule
+2020-08-24 16:42:23.197 +08:00 [INF] - DataCheckingTool.Domain.Shared.DCTDomainShareModule
+2020-08-24 16:42:23.197 +08:00 [INF] - DataCheckingTool.Application.Contracts.DCTApplicationContractsModule
+2020-08-24 16:42:23.197 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-08-24 16:42:23.197 +08:00 [INF] - DataCheckingTool.Application.DCTApplicationModule
+2020-08-24 16:42:23.197 +08:00 [INF] - DataCheckingToolApi.AppModule
+2020-08-24 16:42:23.679 +08:00 [INF] Initialized all ABP modules.
+2020-08-24 16:42:23.698 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-24 16:42:23.698 +08:00 [INF] Hosting environment: Development
+2020-08-24 16:42:23.698 +08:00 [INF] Content root path: C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi
+2020-08-24 16:42:23.752 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/weatherforecast  
+2020-08-24 16:42:23.789 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 16:42:23.868 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DataCheckingToolApi.WeatherForecast] Get() on controller DataCheckingToolApi.Controllers.WeatherForecastController (DataCheckingToolApi).
+2020-08-24 16:42:23.915 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingToolApi.WeatherForecast[]'.
+2020-08-24 16:42:24.049 +08:00 [INF] Executed action DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi) in 177.0255ms
+2020-08-24 16:42:24.051 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 16:42:24.053 +08:00 [INF] Request finished in 303.0381ms 200 application/json; charset=utf-8
+2020-08-24 16:43:06.923 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/DataCheckingTool/TableStructureChecking/Table/CheckIsExist application/json 
+2020-08-24 16:43:06.927 +08:00 [INF] Request finished in 6.4265ms 404 
+2020-08-24 16:43:25.003 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/DataCheckingTool/TableStructureChecking/Table/CheckIsExist  
+2020-08-24 16:43:25.005 +08:00 [INF] Request finished in 1.8026ms 404 
+2020-08-24 16:44:43.314 +08:00 [INF] Starting web host
+2020-08-24 16:44:45.105 +08:00 [INF] User profile is available. Using 'C:\Users\P52\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-24 16:44:45.187 +08:00 [INF] Loaded ABP modules:
+2020-08-24 16:44:45.187 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-08-24 16:44:45.187 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-08-24 16:44:45.187 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-08-24 16:44:45.187 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-08-24 16:44:45.187 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-08-24 16:44:45.187 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-08-24 16:44:45.188 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-08-24 16:44:45.189 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-08-24 16:44:45.189 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-08-24 16:44:45.189 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-08-24 16:44:45.189 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-08-24 16:44:45.189 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-08-24 16:44:45.189 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-08-24 16:44:45.189 +08:00 [INF] - DataCheckingTool.EntityFrameworkCore.DCTEntityFrameworkCoreModule
+2020-08-24 16:44:45.189 +08:00 [INF] - DataCheckingTool.Domain.Shared.DCTDomainShareModule
+2020-08-24 16:44:45.189 +08:00 [INF] - DataCheckingTool.Application.Contracts.DCTApplicationContractsModule
+2020-08-24 16:44:45.189 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-08-24 16:44:45.189 +08:00 [INF] - DataCheckingTool.Application.DCTApplicationModule
+2020-08-24 16:44:45.189 +08:00 [INF] - DataCheckingToolApi.AppModule
+2020-08-24 16:44:45.613 +08:00 [INF] Initialized all ABP modules.
+2020-08-24 16:44:45.635 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-24 16:44:45.635 +08:00 [INF] Hosting environment: Development
+2020-08-24 16:44:45.635 +08:00 [INF] Content root path: C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi
+2020-08-24 16:44:45.688 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/weatherforecast  
+2020-08-24 16:44:45.724 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 16:44:45.793 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DataCheckingToolApi.WeatherForecast] Get() on controller DataCheckingToolApi.Controllers.WeatherForecastController (DataCheckingToolApi).
+2020-08-24 16:44:45.829 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingToolApi.WeatherForecast[]'.
+2020-08-24 16:44:45.957 +08:00 [INF] Executed action DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi) in 159.7297ms
+2020-08-24 16:44:45.959 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 16:44:45.960 +08:00 [INF] Request finished in 275.63ms 200 application/json; charset=utf-8
+2020-08-24 16:46:53.231 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/DataCheckingTool/TableStructureChecking/Table/CheckIsExist  
+2020-08-24 16:46:53.234 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 16:46:53.237 +08:00 [INF] Route matched with {action = "CheckIsExist", controller = "TableStructureChecking", area = ""}. Executing controller action with signature DataCheckingTool.Application.Contracts.CheckingResultDto`1[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto] CheckIsExist() on controller DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController (DataCheckingToolApi).
+2020-08-24 16:47:33.160 +08:00 [INF] Starting web host
+2020-08-24 16:47:34.991 +08:00 [INF] User profile is available. Using 'C:\Users\P52\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-24 16:47:35.077 +08:00 [INF] Loaded ABP modules:
+2020-08-24 16:47:35.077 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-08-24 16:47:35.077 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-08-24 16:47:35.077 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-08-24 16:47:35.077 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-08-24 16:47:35.077 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-08-24 16:47:35.077 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-08-24 16:47:35.077 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-08-24 16:47:35.078 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-08-24 16:47:35.079 +08:00 [INF] - DataCheckingTool.EntityFrameworkCore.DCTEntityFrameworkCoreModule
+2020-08-24 16:47:35.079 +08:00 [INF] - DataCheckingTool.Domain.Shared.DCTDomainShareModule
+2020-08-24 16:47:35.079 +08:00 [INF] - DataCheckingTool.Application.Contracts.DCTApplicationContractsModule
+2020-08-24 16:47:35.079 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-08-24 16:47:35.080 +08:00 [INF] - DataCheckingTool.Application.DCTApplicationModule
+2020-08-24 16:47:35.080 +08:00 [INF] - DataCheckingToolApi.AppModule
+2020-08-24 16:47:35.510 +08:00 [INF] Initialized all ABP modules.
+2020-08-24 16:47:35.528 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-24 16:47:35.528 +08:00 [INF] Hosting environment: Development
+2020-08-24 16:47:35.528 +08:00 [INF] Content root path: C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi
+2020-08-24 16:47:35.577 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/weatherforecast  
+2020-08-24 16:47:35.612 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 16:47:35.685 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DataCheckingToolApi.WeatherForecast] Get() on controller DataCheckingToolApi.Controllers.WeatherForecastController (DataCheckingToolApi).
+2020-08-24 16:47:35.724 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingToolApi.WeatherForecast[]'.
+2020-08-24 16:47:35.850 +08:00 [INF] Executed action DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi) in 160.28ms
+2020-08-24 16:47:35.853 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 16:47:35.854 +08:00 [INF] Request finished in 279.3582ms 200 application/json; charset=utf-8
+2020-08-24 16:47:41.457 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/DataCheckingTool/TableStructureChecking/Table/CheckIsExist  
+2020-08-24 16:47:41.459 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 16:47:41.462 +08:00 [INF] Route matched with {action = "CheckIsExist", controller = "TableStructureChecking", area = ""}. Executing controller action with signature DataCheckingTool.Application.Contracts.CheckingResultDto`1[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto] CheckIsExist() on controller DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController (DataCheckingToolApi).
+2020-08-24 16:50:32.585 +08:00 [INF] Starting web host
+2020-08-24 16:50:34.414 +08:00 [INF] User profile is available. Using 'C:\Users\P52\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-24 16:50:34.496 +08:00 [INF] Loaded ABP modules:
+2020-08-24 16:50:34.496 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-08-24 16:50:34.496 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-08-24 16:50:34.496 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-08-24 16:50:34.497 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-08-24 16:50:34.498 +08:00 [INF] - DataCheckingTool.EntityFrameworkCore.DCTEntityFrameworkCoreModule
+2020-08-24 16:50:34.498 +08:00 [INF] - DataCheckingTool.Domain.Shared.DCTDomainShareModule
+2020-08-24 16:50:34.498 +08:00 [INF] - DataCheckingTool.Application.Contracts.DCTApplicationContractsModule
+2020-08-24 16:50:34.498 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-08-24 16:50:34.498 +08:00 [INF] - DataCheckingTool.Application.DCTApplicationModule
+2020-08-24 16:50:34.498 +08:00 [INF] - DataCheckingToolApi.AppModule
+2020-08-24 16:50:34.932 +08:00 [INF] Initialized all ABP modules.
+2020-08-24 16:50:34.948 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-24 16:50:34.948 +08:00 [INF] Hosting environment: Development
+2020-08-24 16:50:34.948 +08:00 [INF] Content root path: C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi
+2020-08-24 16:50:34.998 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/weatherforecast  
+2020-08-24 16:50:35.032 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 16:50:35.101 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DataCheckingToolApi.WeatherForecast] Get() on controller DataCheckingToolApi.Controllers.WeatherForecastController (DataCheckingToolApi).
+2020-08-24 16:50:35.138 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingToolApi.WeatherForecast[]'.
+2020-08-24 16:50:35.261 +08:00 [INF] Executed action DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi) in 156.2079ms
+2020-08-24 16:50:35.264 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 16:50:35.265 +08:00 [INF] Request finished in 269.8762ms 200 application/json; charset=utf-8
+2020-08-24 16:50:42.011 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/DataCheckingTool/TableStructureChecking/Table/CheckIsExist  
+2020-08-24 16:50:42.013 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 16:50:42.015 +08:00 [INF] Route matched with {action = "CheckIsExist", controller = "TableStructureChecking", area = ""}. Executing controller action with signature DataCheckingTool.Application.Contracts.CheckingResultDto`1[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto] CheckIsExist() on controller DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController (DataCheckingToolApi).
+2020-08-24 16:53:20.024 +08:00 [INF] Starting web host
+2020-08-24 16:53:21.865 +08:00 [INF] User profile is available. Using 'C:\Users\P52\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-24 16:53:21.948 +08:00 [INF] Loaded ABP modules:
+2020-08-24 16:53:21.948 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-08-24 16:53:21.948 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-08-24 16:53:21.948 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-08-24 16:53:21.948 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-08-24 16:53:21.949 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-08-24 16:53:21.950 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-08-24 16:53:21.950 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-08-24 16:53:21.950 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-08-24 16:53:21.950 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-08-24 16:53:21.950 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-08-24 16:53:21.950 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-08-24 16:53:21.950 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-08-24 16:53:21.950 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-08-24 16:53:21.950 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-08-24 16:53:21.950 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-08-24 16:53:21.950 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-08-24 16:53:21.950 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-08-24 16:53:21.950 +08:00 [INF] - DataCheckingTool.EntityFrameworkCore.DCTEntityFrameworkCoreModule
+2020-08-24 16:53:21.950 +08:00 [INF] - DataCheckingTool.Domain.Shared.DCTDomainShareModule
+2020-08-24 16:53:21.950 +08:00 [INF] - DataCheckingTool.Application.Contracts.DCTApplicationContractsModule
+2020-08-24 16:53:21.951 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-08-24 16:53:21.951 +08:00 [INF] - DataCheckingTool.Application.DCTApplicationModule
+2020-08-24 16:53:21.951 +08:00 [INF] - DataCheckingToolApi.AppModule
+2020-08-24 16:53:22.372 +08:00 [INF] Initialized all ABP modules.
+2020-08-24 16:53:22.390 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-24 16:53:22.390 +08:00 [INF] Hosting environment: Development
+2020-08-24 16:53:22.390 +08:00 [INF] Content root path: C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi
+2020-08-24 16:53:22.440 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/weatherforecast  
+2020-08-24 16:53:22.475 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 16:53:22.547 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DataCheckingToolApi.WeatherForecast] Get() on controller DataCheckingToolApi.Controllers.WeatherForecastController (DataCheckingToolApi).
+2020-08-24 16:53:22.585 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingToolApi.WeatherForecast[]'.
+2020-08-24 16:53:22.710 +08:00 [INF] Executed action DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi) in 158.954ms
+2020-08-24 16:53:22.712 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 16:53:22.713 +08:00 [INF] Request finished in 275.5222ms 200 application/json; charset=utf-8
+2020-08-24 16:54:35.827 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/DataCheckingTool/TableStructureChecking/Table/CheckIsExist  
+2020-08-24 16:54:35.829 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 16:54:35.832 +08:00 [INF] Route matched with {action = "CheckIsExist", controller = "TableStructureChecking", area = ""}. Executing controller action with signature DataCheckingTool.Application.Contracts.CheckingResultDto`1[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto] CheckIsExist() on controller DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController (DataCheckingToolApi).
+2020-08-24 16:55:52.047 +08:00 [INF] Starting web host
+2020-08-24 16:55:53.913 +08:00 [INF] User profile is available. Using 'C:\Users\P52\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-24 16:55:53.995 +08:00 [INF] Loaded ABP modules:
+2020-08-24 16:55:53.995 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-08-24 16:55:53.995 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-08-24 16:55:53.995 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-08-24 16:55:53.995 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-08-24 16:55:53.995 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-08-24 16:55:53.995 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-08-24 16:55:53.995 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-08-24 16:55:53.995 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-08-24 16:55:53.995 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-08-24 16:55:53.995 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-08-24 16:55:53.995 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-08-24 16:55:53.996 +08:00 [INF] - DataCheckingTool.EntityFrameworkCore.DCTEntityFrameworkCoreModule
+2020-08-24 16:55:53.996 +08:00 [INF] - DataCheckingTool.Domain.Shared.DCTDomainShareModule
+2020-08-24 16:55:53.996 +08:00 [INF] - DataCheckingTool.Application.Contracts.DCTApplicationContractsModule
+2020-08-24 16:55:53.996 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-08-24 16:55:53.997 +08:00 [INF] - DataCheckingTool.Application.DCTApplicationModule
+2020-08-24 16:55:53.997 +08:00 [INF] - DataCheckingToolApi.AppModule
+2020-08-24 16:55:54.418 +08:00 [INF] Initialized all ABP modules.
+2020-08-24 16:55:54.437 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-24 16:55:54.437 +08:00 [INF] Hosting environment: Development
+2020-08-24 16:55:54.437 +08:00 [INF] Content root path: C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi
+2020-08-24 16:55:54.486 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/weatherforecast  
+2020-08-24 16:55:54.521 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 16:55:54.591 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DataCheckingToolApi.WeatherForecast] Get() on controller DataCheckingToolApi.Controllers.WeatherForecastController (DataCheckingToolApi).
+2020-08-24 16:55:54.627 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingToolApi.WeatherForecast[]'.
+2020-08-24 16:55:54.756 +08:00 [INF] Executed action DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi) in 160.3662ms
+2020-08-24 16:55:54.759 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 16:55:54.760 +08:00 [INF] Request finished in 276.5778ms 200 application/json; charset=utf-8
+2020-08-24 16:56:03.098 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/DataCheckingTool/TableStructureChecking/Table/CheckIsExist  
+2020-08-24 16:56:03.100 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 16:56:03.102 +08:00 [INF] Route matched with {action = "CheckIsExist", controller = "TableStructureChecking", area = ""}. Executing controller action with signature DataCheckingTool.Application.Contracts.CheckingResultDto`1[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto] CheckIsExist() on controller DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController (DataCheckingToolApi).
+2020-08-24 16:56:25.205 +08:00 [INF] Entity Framework Core 3.1.5 initialized 'DCToolBaseDbcontext' using provider 'Oracle.EntityFrameworkCore' with options: None
+2020-08-24 17:01:50.865 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingTool.Application.Contracts.CheckingResultDto`1[[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto, DataCheckingTool.Application.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-08-24 17:01:50.882 +08:00 [INF] Executed action DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi) in 347779.2232ms
+2020-08-24 17:01:50.883 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 17:01:50.892 +08:00 [INF] Request finished in 347793.9045ms 200 application/json; charset=utf-8
+2020-08-24 17:02:20.397 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/DataCheckingTool/TableStructureChecking/Table/CheckIsExist  
+2020-08-24 17:02:20.398 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 17:02:20.400 +08:00 [INF] Route matched with {action = "CheckIsExist", controller = "TableStructureChecking", area = ""}. Executing controller action with signature DataCheckingTool.Application.Contracts.CheckingResultDto`1[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto] CheckIsExist() on controller DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController (DataCheckingToolApi).
+2020-08-24 17:02:26.863 +08:00 [INF] Entity Framework Core 3.1.5 initialized 'DCToolBaseDbcontext' using provider 'Oracle.EntityFrameworkCore' with options: None
+2020-08-24 17:04:27.963 +08:00 [INF] Starting web host
+2020-08-24 17:04:29.821 +08:00 [INF] User profile is available. Using 'C:\Users\P52\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-24 17:04:29.901 +08:00 [INF] Loaded ABP modules:
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-08-24 17:04:29.901 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-08-24 17:04:29.902 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-08-24 17:04:29.902 +08:00 [INF] - DataCheckingTool.EntityFrameworkCore.DCTEntityFrameworkCoreModule
+2020-08-24 17:04:29.902 +08:00 [INF] - DataCheckingTool.Domain.Shared.DCTDomainShareModule
+2020-08-24 17:04:29.903 +08:00 [INF] - DataCheckingTool.Application.Contracts.DCTApplicationContractsModule
+2020-08-24 17:04:29.903 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-08-24 17:04:29.903 +08:00 [INF] - DataCheckingTool.Application.DCTApplicationModule
+2020-08-24 17:04:29.903 +08:00 [INF] - DataCheckingToolApi.AppModule
+2020-08-24 17:04:30.341 +08:00 [INF] Initialized all ABP modules.
+2020-08-24 17:04:30.358 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-24 17:04:30.358 +08:00 [INF] Hosting environment: Development
+2020-08-24 17:04:30.358 +08:00 [INF] Content root path: C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi
+2020-08-24 17:04:30.411 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/weatherforecast  
+2020-08-24 17:04:30.451 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 17:04:30.519 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DataCheckingToolApi.WeatherForecast] Get() on controller DataCheckingToolApi.Controllers.WeatherForecastController (DataCheckingToolApi).
+2020-08-24 17:04:30.557 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingToolApi.WeatherForecast[]'.
+2020-08-24 17:04:30.685 +08:00 [INF] Executed action DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi) in 161.7726ms
+2020-08-24 17:04:30.688 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 17:04:30.689 +08:00 [INF] Request finished in 281.6001ms 200 application/json; charset=utf-8
+2020-08-24 17:04:38.254 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/DataCheckingTool/TableStructureChecking/Table/CheckIsExist  
+2020-08-24 17:04:38.256 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 17:04:38.258 +08:00 [INF] Route matched with {action = "CheckIsExist", controller = "TableStructureChecking", area = ""}. Executing controller action with signature DataCheckingTool.Application.Contracts.CheckingResultDto`1[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto] CheckIsExist() on controller DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController (DataCheckingToolApi).
+2020-08-24 17:04:41.783 +08:00 [INF] Entity Framework Core 3.1.5 initialized 'DCToolBaseDbcontext' using provider 'Oracle.EntityFrameworkCore' with options: None
+2020-08-24 17:04:52.803 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingTool.Application.Contracts.CheckingResultDto`1[[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto, DataCheckingTool.Application.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-08-24 17:04:52.816 +08:00 [INF] Executed action DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi) in 14557.8736ms
+2020-08-24 17:04:52.816 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 17:04:52.819 +08:00 [INF] Request finished in 14564.6335ms 200 application/json; charset=utf-8
+2020-08-24 18:13:27.703 +08:00 [INF] Starting web host
+2020-08-24 18:13:29.541 +08:00 [INF] User profile is available. Using 'C:\Users\P52\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-24 18:13:29.630 +08:00 [INF] Loaded ABP modules:
+2020-08-24 18:13:29.630 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-08-24 18:13:29.630 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-08-24 18:13:29.630 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-08-24 18:13:29.630 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-08-24 18:13:29.630 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-08-24 18:13:29.630 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-08-24 18:13:29.630 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-08-24 18:13:29.630 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-08-24 18:13:29.631 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-08-24 18:13:29.632 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-08-24 18:13:29.632 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-08-24 18:13:29.632 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-08-24 18:13:29.632 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-08-24 18:13:29.632 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-08-24 18:13:29.632 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-08-24 18:13:29.632 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-08-24 18:13:29.632 +08:00 [INF] - DataCheckingTool.EntityFrameworkCore.DCTEntityFrameworkCoreModule
+2020-08-24 18:13:29.632 +08:00 [INF] - DataCheckingTool.Domain.Shared.DCTDomainShareModule
+2020-08-24 18:13:29.632 +08:00 [INF] - DataCheckingTool.Application.Contracts.DCTApplicationContractsModule
+2020-08-24 18:13:29.632 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-08-24 18:13:29.632 +08:00 [INF] - DataCheckingTool.Application.DCTApplicationModule
+2020-08-24 18:13:29.632 +08:00 [INF] - DataCheckingToolApi.AppModule
+2020-08-24 18:13:30.082 +08:00 [INF] Initialized all ABP modules.
+2020-08-24 18:13:30.101 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-24 18:13:30.101 +08:00 [INF] Hosting environment: Development
+2020-08-24 18:13:30.101 +08:00 [INF] Content root path: C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi
+2020-08-24 18:13:30.153 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/weatherforecast  
+2020-08-24 18:13:30.188 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 18:13:30.265 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DataCheckingToolApi.WeatherForecast] Get() on controller DataCheckingToolApi.Controllers.WeatherForecastController (DataCheckingToolApi).
+2020-08-24 18:13:30.301 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingToolApi.WeatherForecast[]'.
+2020-08-24 18:13:30.427 +08:00 [INF] Executed action DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi) in 156.4154ms
+2020-08-24 18:13:30.430 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 18:13:30.431 +08:00 [INF] Request finished in 280.1441ms 200 application/json; charset=utf-8
+2020-08-24 18:13:33.977 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/DataCheckingTool/TableStructureChecking/Table/CheckIsExist  
+2020-08-24 18:13:33.979 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 18:13:33.983 +08:00 [INF] Route matched with {action = "CheckIsExist", controller = "TableStructureChecking", area = ""}. Executing controller action with signature DataCheckingTool.Application.Contracts.CheckingResultDto`1[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto] CheckIsExist() on controller DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController (DataCheckingToolApi).
+2020-08-24 18:13:53.943 +08:00 [INF] Entity Framework Core 3.1.5 initialized 'DCToolBaseDbcontext' using provider 'Oracle.EntityFrameworkCore' with options: None
+2020-08-24 18:13:54.920 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingTool.Application.Contracts.CheckingResultDto`1[[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto, DataCheckingTool.Application.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-08-24 18:13:54.934 +08:00 [INF] Executed action DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi) in 20951.5081ms
+2020-08-24 18:13:54.935 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 18:13:54.938 +08:00 [INF] Request finished in 20960.6277ms 200 application/json; charset=utf-8
+2020-08-24 18:34:37.691 +08:00 [INF] Starting web host
+2020-08-24 18:34:39.637 +08:00 [INF] User profile is available. Using 'C:\Users\P52\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-08-24 18:34:39.728 +08:00 [INF] Loaded ABP modules:
+2020-08-24 18:34:39.728 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-08-24 18:34:39.728 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-08-24 18:34:39.728 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-08-24 18:34:39.728 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-08-24 18:34:39.729 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-08-24 18:34:39.730 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-08-24 18:34:39.730 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-08-24 18:34:39.730 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-08-24 18:34:39.730 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-08-24 18:34:39.730 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-08-24 18:34:39.730 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-08-24 18:34:39.730 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-08-24 18:34:39.730 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-08-24 18:34:39.730 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-08-24 18:34:39.730 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-08-24 18:34:39.730 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-08-24 18:34:39.730 +08:00 [INF] - DataCheckingTool.EntityFrameworkCore.DCTEntityFrameworkCoreModule
+2020-08-24 18:34:39.730 +08:00 [INF] - DataCheckingTool.Domain.Shared.DCTDomainShareModule
+2020-08-24 18:34:39.730 +08:00 [INF] - DataCheckingTool.Application.Contracts.DCTApplicationContractsModule
+2020-08-24 18:34:39.730 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-08-24 18:34:39.730 +08:00 [INF] - DataCheckingTool.Application.DCTApplicationModule
+2020-08-24 18:34:39.730 +08:00 [INF] - DataCheckingToolApi.AppModule
+2020-08-24 18:34:40.193 +08:00 [INF] Initialized all ABP modules.
+2020-08-24 18:34:40.212 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-08-24 18:34:40.212 +08:00 [INF] Hosting environment: Development
+2020-08-24 18:34:40.213 +08:00 [INF] Content root path: C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi
+2020-08-24 18:34:40.262 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/weatherforecast  
+2020-08-24 18:34:40.299 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 18:34:40.375 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DataCheckingToolApi.WeatherForecast] Get() on controller DataCheckingToolApi.Controllers.WeatherForecastController (DataCheckingToolApi).
+2020-08-24 18:34:40.411 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingToolApi.WeatherForecast[]'.
+2020-08-24 18:34:40.538 +08:00 [INF] Executed action DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi) in 158.8716ms
+2020-08-24 18:34:40.541 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.Controllers.WeatherForecastController.Get (DataCheckingToolApi)'
+2020-08-24 18:34:40.542 +08:00 [INF] Request finished in 282.4995ms 200 application/json; charset=utf-8
+2020-08-24 18:34:44.554 +08:00 [INF] Request starting HTTP/2.0 GET https://localhost:44382/DataCheckingTool/TableStructureChecking/Table/CheckIsExist  
+2020-08-24 18:34:44.556 +08:00 [INF] Executing endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 18:34:44.558 +08:00 [INF] Route matched with {action = "CheckIsExist", controller = "TableStructureChecking", area = ""}. Executing controller action with signature DataCheckingTool.Application.Contracts.CheckingResultDto`1[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto] CheckIsExist() on controller DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController (DataCheckingToolApi).
+2020-08-24 18:35:01.752 +08:00 [INF] Entity Framework Core 3.1.5 initialized 'DCToolBaseDbcontext' using provider 'Oracle.EntityFrameworkCore' with options: None
+2020-08-24 18:35:02.755 +08:00 [INF] Executing ObjectResult, writing value of type 'DataCheckingTool.Application.Contracts.CheckingResultDto`1[[DataCheckingTool.Application.Contracts.TableStructureCheckingResultDto, DataCheckingTool.Application.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-08-24 18:35:02.771 +08:00 [INF] Executed action DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi) in 18212.025ms
+2020-08-24 18:35:02.771 +08:00 [INF] Executed endpoint 'DataCheckingToolApi.DataCheckingTool.TableStructureCheckingController.CheckIsExist (DataCheckingToolApi)'
+2020-08-24 18:35:02.773 +08:00 [INF] Request finished in 18219.9037ms 200 application/json; charset=utf-8

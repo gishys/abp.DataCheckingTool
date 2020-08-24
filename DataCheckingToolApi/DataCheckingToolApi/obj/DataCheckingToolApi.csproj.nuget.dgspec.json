@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingToolApi\\DataCheckingToolApi.csproj": {}
+  },
+  "projects": {
+    "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application.Contracts\\DataCheckingTool.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application.Contracts\\DataCheckingTool.Application.Contracts.csproj",
+        "projectName": "DataCheckingTool.Application.Contracts",
+        "projectPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application.Contracts\\DataCheckingTool.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\P52\\.nuget\\packages\\",
+        "outputPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\P52\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Domain.Shared\\DataCheckingTool.Domain.Shared.csproj": {
+                "projectPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Domain.Shared\\DataCheckingTool.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Volo.Abp.Ddd.Application": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application\\DataCheckingTool.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application\\DataCheckingTool.Application.csproj",
+        "projectName": "DataCheckingTool.Application",
+        "projectPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application\\DataCheckingTool.Application.csproj",
+        "packagesPath": "C:\\Users\\P52\\.nuget\\packages\\",
+        "outputPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\P52\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application.Contracts\\DataCheckingTool.Application.Contracts.csproj": {
+                "projectPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application.Contracts\\DataCheckingTool.Application.Contracts.csproj"
+              },
+              "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.EntityFrameworkCore\\DataCheckingTool.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.EntityFrameworkCore\\DataCheckingTool.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Volo.Abp.AutoMapper": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Domain.Shared\\DataCheckingTool.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Domain.Shared\\DataCheckingTool.Domain.Shared.csproj",
+        "projectName": "DataCheckingTool.Domain.Shared",
+        "projectPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Domain.Shared\\DataCheckingTool.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\P52\\.nuget\\packages\\",
+        "outputPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\P52\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Volo.Abp.Core": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.EntityFrameworkCore\\DataCheckingTool.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.EntityFrameworkCore\\DataCheckingTool.EntityFrameworkCore.csproj",
+        "projectName": "DataCheckingTool.EntityFrameworkCore",
+        "projectPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.EntityFrameworkCore\\DataCheckingTool.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\P52\\.nuget\\packages\\",
+        "outputPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\P52\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.19.0-beta2, )"
+            },
+            "Volo.Abp.Dapper": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingToolApi\\DataCheckingToolApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingToolApi\\DataCheckingToolApi.csproj",
+        "projectName": "DataCheckingToolApi",
+        "projectPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingToolApi\\DataCheckingToolApi.csproj",
+        "packagesPath": "C:\\Users\\P52\\.nuget\\packages\\",
+        "outputPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingToolApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\P52\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application.Contracts\\DataCheckingTool.Application.Contracts.csproj": {
+                "projectPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application.Contracts\\DataCheckingTool.Application.Contracts.csproj"
+              },
+              "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application\\DataCheckingTool.Application.csproj": {
+                "projectPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.Application\\DataCheckingTool.Application.csproj"
+              },
+              "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.EntityFrameworkCore\\DataCheckingTool.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\AProject2020\\NewPlatformTransferTools\\DataCheckingTool\\DataCheckingToolApi\\DataCheckingTool.EntityFrameworkCore\\DataCheckingTool.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

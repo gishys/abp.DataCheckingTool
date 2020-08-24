@@ -1,0 +1,12 @@
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application.Contracts\bin\Debug\netcoreapp3.1\DataCheckingTool.Application.Contracts.deps.json
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application.Contracts\bin\Debug\netcoreapp3.1\DataCheckingTool.Application.Contracts.dll
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application.Contracts\obj\Debug\netcoreapp3.1\DataCheckingTool.Application.Contracts.csprojAssemblyReference.cache
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application.Contracts\obj\Debug\netcoreapp3.1\DataCheckingTool.Application.Contracts.AssemblyInfoInputs.cache
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application.Contracts\obj\Debug\netcoreapp3.1\DataCheckingTool.Application.Contracts.AssemblyInfo.cs
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application.Contracts\bin\Debug\netcoreapp3.1\DataCheckingTool.Application.Contracts.pdb
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application.Contracts\bin\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.dll
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application.Contracts\bin\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.pdb
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application.Contracts\obj\Debug\netcoreapp3.1\DataCheckingTool.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application.Contracts\obj\Debug\netcoreapp3.1\DataCheckingTool.Application.Contracts.csproj.CopyComplete
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application.Contracts\obj\Debug\netcoreapp3.1\DataCheckingTool.Application.Contracts.dll
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application.Contracts\obj\Debug\netcoreapp3.1\DataCheckingTool.Application.Contracts.pdb

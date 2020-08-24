@@ -1,0 +1,19 @@
+{
+  "TableStructureChecking": {
+    "Tables": [
+      {
+        "Name": "DJ_DJB",
+        "Fields": [
+          {
+            "Name": "SLBH",
+            "IsKey": true,
+            "IsIndex": true
+          },
+          {
+            "Name": "DJLX"
+          }
+        ]
+      }
+    ]
+  }
+}
