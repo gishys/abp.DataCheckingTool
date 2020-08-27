@@ -11,12 +11,27 @@ namespace DataCheckingTool.Application.Contracts
             get;
             set;
         }
-        public string Type
+        public string FieldType
         {
             get;
             set;
         }
-        public int Length
+        public int FieldLength
+        {
+            get;
+            set;
+        }
+        public int CheckLength
+        {
+            get;
+            set;
+        }
+        public string TableName
+        {
+            get;
+            set;
+        }
+        public string SelectFieldNames
         {
             get;
             set;

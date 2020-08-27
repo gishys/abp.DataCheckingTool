@@ -7,10 +7,19 @@
           {
             "Name": "SLBH",
             "IsKey": true,
-            "IsIndex": true
+            "IsIndex": true,
+            "FieldLength": 36,
+            "CheckLength": 36,
+            "TableName": "DJ_DJB",
+            "SelectFieldNames": "SLBH"
           },
           {
-            "Name": "DJLX"
+            "Name": "DJLX",
+            "IsIndex": true,
+            "FieldLength": 256,
+            "CheckLength": 8,
+            "TableName": "DJ_DJB",
+            "SelectFieldNames": "SLBH,DJLX"
           }
         ]
       }

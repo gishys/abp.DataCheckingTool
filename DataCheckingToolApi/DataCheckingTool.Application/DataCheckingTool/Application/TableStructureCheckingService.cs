@@ -12,9 +12,13 @@ namespace DataCheckingTool.Application
     public class TableStructureCheckingService : ITableStructureCheckingService, ITransientDependency
     {
         private readonly DCToolDapperRepository _dcToolDapperRepository;
-        public TableStructureCheckingService(DCToolDapperRepository dcToolDapperRepository)
+        private readonly IFieldErrorRulesService _ferService;
+        public TableStructureCheckingService(
+            DCToolDapperRepository dcToolDapperRepository,
+            IFieldErrorRulesService ferService)
         {
             _dcToolDapperRepository = dcToolDapperRepository;
+            _ferService = ferService;
         }
         /// <summary>
         /// 检查表是否存在
@@ -37,33 +41,22 @@ namespace DataCheckingTool.Application
                 var tscResultDto = new TableCheckingResultDto(tableName, existList.Contains(tableName));
                 tscResultDtos.Add(tscResultDto);
             }
-            var ckResultDto = new CheckingResultDto<TableCheckingResultDto>("表格完整性检查", "001", "错误");
+            var ckResultDto = new CheckingResultDto<TableCheckingResultDto>("表格符合性检查", "001", "错误");
             ckResultDto.SetResultObjs(tscResultDtos);
             return ckResultDto;
         }
         /// <summary>
-        /// 检查表字段是否存在
+        /// 检查表字段
         /// </summary>
         /// <param name="table"></param>
         /// <returns></returns>
-        public CheckingResultDto<FieldCheckingResultDto> CheckingTableColumn(Table table)
+        public CheckingResultDto<FieldCheckingResultDto<Field>> CheckingTableColumn(Table table)
         {
-            string userName = GlobalPara.DatabaseUserName();
-            string fNames = "";
-            var fList = table.Fields.Select(d => d.Name).ToList();
-            foreach (var fName in fList)
-            {
-                fNames += string.Concat($",'{fName.ToUpper()}'");
-            }
-            string queryTable = $"SELECT COLUMN_NAME FROM DBA_TAB_COLUMNS WHERE OWNER='{userName}' AND TABLE_NAME='{table.Name}' AND COLUMN_NAME IN ({fNames.Substring(1)})";
-            var existList = _dcToolDapperRepository.Query<string>(queryTable);
-            var tscResultDtos = new List<FieldCheckingResultDto>();
-            foreach (var tableName in fList)
-            {
-                var tscResultDto = new FieldCheckingResultDto(tableName, "表格字段是否存在", existList.Contains(tableName));
-                tscResultDtos.Add(tscResultDto);
-            }
-            var ckResultDto = new CheckingResultDto<FieldCheckingResultDto>("表格完整性检查", "001", "错误");
+            var tscResultDtos = new List<FieldCheckingResultDto<Field>>();
+            tscResultDtos.AddRange(_ferService.FieldsExist(table));
+            tscResultDtos.AddRange(_ferService.FieldsIndexExist(table));
+            tscResultDtos.AddRange(_ferService.FieldValueLengthCheck(table));
+            var ckResultDto = new CheckingResultDto<FieldCheckingResultDto<Field>>("字段符合性检查", "002", "错误");
             ckResultDto.SetResultObjs(tscResultDtos);
             return ckResultDto;
         }

@@ -4,13 +4,13 @@ using System.Text;
 
 namespace DataCheckingTool.Application.Contracts
 {
-    public class FieldCheckingResultDto : ICheckSign
+    public class FieldCheckingResultDto<T> : ICheckSign
     {
         public FieldCheckingResultDto(string name,string checkingDiscript,bool isPass)
         {
             Name = name;
             CheckingDiscript = checkingDiscript;
-            isPass = IsPass;
+            IsPass = isPass;
         }
         /// <summary>
         /// 字段名称
@@ -18,12 +18,30 @@ namespace DataCheckingTool.Application.Contracts
         public string Name
         {
             get;
-            set;
+            protected set;
         }
         /// <summary>
         /// 检查描述
         /// </summary>
         public string CheckingDiscript
+        {
+            get;
+            protected set;
+        }
+        public T SourceObj
+        {
+            get;
+            protected set;
+        }
+        public T CheckObj
+        {
+            get;
+            protected set;
+        }
+        /// <summary>
+        /// 错误数据数量
+        /// </summary>
+        public int ErrorDataCount
         {
             get;
             set;
@@ -35,6 +53,16 @@ namespace DataCheckingTool.Application.Contracts
         {
             get;
             protected set;
+        }
+        /// <summary>
+        /// 设置字段对象
+        /// </summary>
+        /// <param name="source"></param>
+        /// <param name="check"></param>
+        public void SetObj(T source, T check)
+        {
+            SourceObj = source;
+            CheckObj = check;
         }
     }
 }
