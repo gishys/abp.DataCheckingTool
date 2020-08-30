@@ -12,14 +12,6 @@ namespace DataCheckingTool.Application
         /// </summary>
         /// <param name="field"></param>
         /// <returns></returns>
-        List<dynamic> GetFieldLengthErrorData(Field field, int pageIndex = 1, int pageCount = 20);
-        /// <summary>
-        /// 获取值域错误数据
-        /// </summary>
-        /// <param name="field"></param>
-        /// <param name="pageIndex"></param>
-        /// <param name="pageCount"></param>
-        /// <returns></returns>
-        List<dynamic> GetValueDomainErrorData(Field field, int pageIndex = 0, int pageCount = 20);
+        List<dynamic> GetFieldLengthErrorDataList(Field field);
     }
 }

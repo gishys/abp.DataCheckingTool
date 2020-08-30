@@ -46,10 +46,5 @@ namespace DataCheckingTool.Application.Contracts
             get;
             set;
         } = false;
-        public CheckValueDomainDto<dynamic> CVDomainDto
-        {
-            get;
-            set;
-        }
     }
 }

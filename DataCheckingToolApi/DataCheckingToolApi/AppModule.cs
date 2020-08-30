@@ -7,7 +7,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Nm.ExcelHelper;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.Autofac;
@@ -20,7 +19,6 @@ namespace DataCheckingToolApi
     [DependsOn(typeof(DCTEntityFrameworkCoreModule))]
     [DependsOn(typeof(DCTApplicationModule))]
     [DependsOn(typeof(DCTApplicationContractsModule))]
-    [DependsOn(typeof(NmExcelHelperModule))]
     public class AppModule : AbpModule
     {
         public override void ConfigureServices(ServiceConfigurationContext context)

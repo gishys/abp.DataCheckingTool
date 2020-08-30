@@ -14,18 +14,6 @@ namespace DataCheckingTool.Application.Contracts
         /// </summary>
         /// <param name="tableNames">表名集合</param>
         /// <returns></returns>
-        CheckingResultDto<TableCheckingResultDto> CheckingTable(List<Table> tables);
-        /// <summary>
-        /// 检查表结构
-        /// </summary>
-        /// <param name="tables"></param>
-        /// <returns></returns>
-        CheckingResultDtos Checking(List<Table> tables);
-        /// <summary>
-        /// 检查表字段
-        /// </summary>
-        /// <param name="table"></param>
-        /// <returns></returns>
-        CheckingResultDto<FieldCheckingResultDto<Field>> CheckingTableColumn(List<Table> tables);
+        CheckingResultDto<TableCheckingResultDto> CheckingTable(List<string> tableNames);
     }
 }

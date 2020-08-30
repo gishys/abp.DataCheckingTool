@@ -1,9 +1,0 @@
-C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\Nm.ExcelHelper\bin\Debug\netcoreapp3.1\Nm.ExcelHelper.deps.json
-C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\Nm.ExcelHelper\bin\Debug\netcoreapp3.1\Nm.ExcelHelper.dll
-C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\Nm.ExcelHelper\obj\Debug\netcoreapp3.1\Nm.ExcelHelper.csprojAssemblyReference.cache
-C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\Nm.ExcelHelper\obj\Debug\netcoreapp3.1\Nm.ExcelHelper.AssemblyInfoInputs.cache
-C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\Nm.ExcelHelper\obj\Debug\netcoreapp3.1\Nm.ExcelHelper.AssemblyInfo.cs
-C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\Nm.ExcelHelper\bin\Debug\netcoreapp3.1\Nm.ExcelHelper.pdb
-C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\Nm.ExcelHelper\obj\Debug\netcoreapp3.1\Nm.ExcelHelper.csproj.CoreCompileInputs.cache
-C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\Nm.ExcelHelper\obj\Debug\netcoreapp3.1\Nm.ExcelHelper.dll
-C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\Nm.ExcelHelper\obj\Debug\netcoreapp3.1\Nm.ExcelHelper.pdb
