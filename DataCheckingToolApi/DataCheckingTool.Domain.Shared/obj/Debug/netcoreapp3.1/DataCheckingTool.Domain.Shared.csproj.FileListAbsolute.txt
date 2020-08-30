@@ -1,9 +1,9 @@
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Domain.Shared\bin\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.deps.json
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Domain.Shared\bin\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.dll
-C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Domain.Shared\obj\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.csprojAssemblyReference.cache
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Domain.Shared\obj\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.AssemblyInfoInputs.cache
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Domain.Shared\obj\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.AssemblyInfo.cs
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Domain.Shared\bin\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.pdb
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Domain.Shared\obj\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.csproj.CoreCompileInputs.cache
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Domain.Shared\obj\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.dll
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Domain.Shared\obj\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.pdb
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Domain.Shared\obj\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.csprojAssemblyReference.cache

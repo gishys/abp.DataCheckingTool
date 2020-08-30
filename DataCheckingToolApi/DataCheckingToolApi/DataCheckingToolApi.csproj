@@ -14,7 +14,10 @@
     <ProjectReference Include="..\DataCheckingTool.Application.Contracts\DataCheckingTool.Application.Contracts.csproj" />
     <ProjectReference Include="..\DataCheckingTool.Application\DataCheckingTool.Application.csproj" />
     <ProjectReference Include="..\DataCheckingTool.EntityFrameworkCore\DataCheckingTool.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Nm.ExcelHelper\Nm.ExcelHelper.csproj" />
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties datacheckingtooldataoptions_1json__JsonSchema="http://json.schemastore.org/jovo-language-model" /></VisualStudio></ProjectExtensions>
 
 
 </Project>

@@ -349,7 +349,6 @@ C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\Da
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
-C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
@@ -417,3 +416,10 @@ C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\Da
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\DataCheckingTool.Application.pdb
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\DataCheckingTool.Domain.Shared.pdb
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\DataCheckingToolDataOptions.json
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\testdata\GetFieldLengthErrorDataList_request.json
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\EPPlus.dll
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\Nm.ExcelHelper.dll
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingToolApi\bin\Debug\netcoreapp3.1\Nm.ExcelHelper.pdb

@@ -21,12 +21,25 @@ namespace DataCheckingTool.Application
             _ferService = ferService;
         }
         /// <summary>
+        /// 检查表结构
+        /// </summary>
+        /// <param name="tables"></param>
+        /// <returns></returns>
+        public CheckingResultDtos Checking(List<Table> tables)
+        {
+            var resultList = new CheckingResultDtos();
+            resultList.TableCheck = CheckingTable(tables);
+            resultList.FieldCheck = CheckingTableColumn(tables);
+            return resultList;
+        }
+        /// <summary>
         /// 检查表是否存在
         /// </summary>
         /// <param name="tableNames">表名集合</param>
         /// <returns></returns>
-        public CheckingResultDto<TableCheckingResultDto> CheckingTable(List<string> tableNames)
+        public CheckingResultDto<TableCheckingResultDto> CheckingTable(List<Table> tables)
         {
+            var tableNames = tables.Select(d => d.Name).ToList();
             string userName = GlobalPara.DatabaseUserName();
             string tNames = "";
             foreach (var tName in tableNames)
@@ -50,12 +63,15 @@ namespace DataCheckingTool.Application
         /// </summary>
         /// <param name="table"></param>
         /// <returns></returns>
-        public CheckingResultDto<FieldCheckingResultDto<Field>> CheckingTableColumn(Table table)
+        public CheckingResultDto<FieldCheckingResultDto<Field>> CheckingTableColumn(List<Table> tables)
         {
             var tscResultDtos = new List<FieldCheckingResultDto<Field>>();
-            tscResultDtos.AddRange(_ferService.FieldsExist(table));
-            tscResultDtos.AddRange(_ferService.FieldsIndexExist(table));
-            tscResultDtos.AddRange(_ferService.FieldValueLengthCheck(table));
+            foreach (var table in tables)
+            {
+                tscResultDtos.AddRange(_ferService.FieldsExist(table));
+                tscResultDtos.AddRange(_ferService.FieldsIndexExist(table));
+                tscResultDtos.AddRange(_ferService.FieldValueLengthCheck(table));
+            }
             var ckResultDto = new CheckingResultDto<FieldCheckingResultDto<Field>>("字段符合性检查", "002", "错误");
             ckResultDto.SetResultObjs(tscResultDtos);
             return ckResultDto;

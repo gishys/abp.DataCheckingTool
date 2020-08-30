@@ -6,7 +6,7 @@ namespace DataCheckingTool.Application
     {
         public DataCheckingToolMapperProfile()
         {
-
+            
         }
     }
 }
