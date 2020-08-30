@@ -10,30 +10,31 @@ namespace DataCheckingTool.Application
     public class FieldErrorRulesService : IFieldErrorRulesService, ITransientDependency
     {
         private readonly DCToolDapperRepository _dcToolDapperRepository;
-        private readonly List<Field> _fields;
+        private List<Field> _fields = null;
         public FieldErrorRulesService(DCToolDapperRepository dcToolDapperRepository)
         {
             _dcToolDapperRepository = dcToolDapperRepository;
-            _fields = Init();
         }
         public List<Field> Init()
         {
             string userName = GlobalPara.DatabaseUserName();
             string queryTable = @$"SELECT A.COLUMN_NAME AS Name,
-                                       A.DATA_TYPE   AS FieldType,
-                                       A.DATA_LENGTH AS FieldLength,
-                                       B.INDEX_NAME
-                                  FROM DBA_TAB_COLUMNS A
-                                  LEFT JOIN DBA_IND_COLUMNS B
-                                    ON A.COLUMN_NAME = B.COLUMN_NAME
-                                   AND A.TABLE_NAME = B.TABLE_NAME
-                                   AND A.OWNER = B.TABLE_OWNER
+                                           A.DATA_TYPE AS FieldType,
+                                           A.DATA_LENGTH AS FieldLength,
+                                           A.TABLE_NAME AS TableName,
+                                           NVL2(B.INDEX_NAME, 1, 0) AS IsIndex
+                                      FROM DBA_TAB_COLUMNS A
+                                      LEFT JOIN DBA_IND_COLUMNS B
+                                        ON A.COLUMN_NAME = B.COLUMN_NAME
+                                       AND A.TABLE_NAME = B.TABLE_NAME
+                                       AND A.OWNER = B.TABLE_OWNER
                                  WHERE 
                                    A.OWNER = '{userName}'";
             return _dcToolDapperRepository.Query<Field>(queryTable);
         }
         public List<FieldCheckingResultDto<Field>> FieldsExist(Table table)
         {
+            _fields = _fields == null ? Init() : _fields;
             var sourceFieldList = _fields.Where(d => d.TableName == table.Name).ToList();
             var tscResultDtos = new List<FieldCheckingResultDto<Field>>();
             foreach (var fieldName in table.Fields.Select(d => d.Name))
@@ -46,6 +47,7 @@ namespace DataCheckingTool.Application
         }
         public List<FieldCheckingResultDto<Field>> FieldsIndexExist(Table table)
         {
+            _fields = _fields == null ? Init() : _fields;
             var sourceFieldList = _fields.Where(d => d.TableName == table.Name).ToList();
             var tscResultDtos = new List<FieldCheckingResultDto<Field>>();
             foreach (var field in table.Fields.Where(d => d.IsIndex))
@@ -58,6 +60,7 @@ namespace DataCheckingTool.Application
         }
         public List<FieldCheckingResultDto<Field>> FieldValueLengthCheck(Table table)
         {
+            _fields = _fields == null ? Init() : _fields;
             var sourceFieldList = _fields.Where(d => d.TableName == table.Name).ToList();
             var tscResultDtos = new List<FieldCheckingResultDto<Field>>();
             foreach (var field in table.Fields)
@@ -66,7 +69,7 @@ namespace DataCheckingTool.Application
                 if (field.FieldLength > (tempField != null ? tempField.FieldLength : -1))
                 {
                     var errorDataCount = _dcToolDapperRepository.Query<int>(
-                        $"SELECT COUNT(*) FROM WHERE LENGTH({field.Name}>{field.CheckLength})").FirstOrDefault();
+                        $"SELECT COUNT(*) FROM {field.TableName} WHERE LENGTH({field.Name})>{field.CheckLength}").FirstOrDefault();
                     if (errorDataCount > 0)
                     {
                         var tscResultDto = new FieldCheckingResultDto<Field>(field.Name, "字段长度及内容超过目标字段长度",
