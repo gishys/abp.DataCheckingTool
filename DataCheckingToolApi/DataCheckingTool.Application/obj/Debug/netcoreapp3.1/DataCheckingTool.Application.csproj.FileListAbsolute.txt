@@ -14,3 +14,5 @@ C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\Da
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application\obj\Debug\netcoreapp3.1\DataCheckingTool.Application.csproj.CopyComplete
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application\obj\Debug\netcoreapp3.1\DataCheckingTool.Application.dll
 C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application\obj\Debug\netcoreapp3.1\DataCheckingTool.Application.pdb
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application\bin\Debug\netcoreapp3.1\Nm.ExcelHelper.dll
+C:\AProject2020\NewPlatformTransferTools\DataCheckingTool\DataCheckingToolApi\DataCheckingTool.Application\bin\Debug\netcoreapp3.1\Nm.ExcelHelper.pdb

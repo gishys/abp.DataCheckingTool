@@ -8,24 +8,61 @@
             "Name": "SLBH",
             "IsKey": true,
             "IsIndex": true,
-            "FieldLength": 36,
             "CheckLength": 36,
             "TableName": "DJ_DJB",
             "SelectFieldNames": "SLBH"
           },
           {
             "Name": "DJLX",
-            "IsIndex": true,
-            "FieldLength": 256,
             "CheckLength": 8,
-            "TableName": "DJ_DJB",
             "SelectFieldNames": "SLBH,DJLX",
             "CVDomainDto": {
-              "Domain": [ "地役权", "地役权注销", "转移含预告", "转移含抵押", "转移含查封" ],
               "DomainDbSourceSql": "select a.itemname from btggk.dic_item a left join btggk.dic_main b on a.diccode = b.diccode where b.dicname = '登记类型(大类)'",
-              "CVDSource": 1, //数据来源：0为xml，当为0是取Domain里的值；1为database，当为1时执行DomainDbSourceSql，从数据库获取；
-              "CVDType": 0 //值域类型：0为一个范围，当值为0时，填写MinValue与MaxValue，范围在Min与Max内；1为一组值，当值为1时，填写Domain。
+              "CVDSource": 1 //数据来源：0为xml，当为0是取Domain里的值；1为database，当为1时执行DomainDbSourceSql，从数据库获取；
             }
+          },
+          {
+            "Name": "BDCZH",
+            "UniqueValue": true
+          },
+
+          {
+            "Name": "LIFECYCLE",
+            "CVDomainDto": {
+              "Domain": [0,1,-1],
+              "CVDSource": 0, //数据来源：0为xml，当为0是取Domain里的值；1为database，当为1时执行DomainDbSourceSql，从数据库获取；
+              "CVDType": 1 //值域类型：0为一个范围，当值为0时，填写MinValue与MaxValue，范围在Min与Max内；1为一组值，当值为1时，填写Domain。
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ZD_QSDC",
+        "Field": [
+          {
+            "Name": "ZDTYBM",
+            "UniqueValue": true,
+            "CanBeEmpty": false
+          },
+          {
+            "Name": "BDCDYH",
+            "UniqueValue": true,
+            "CanBeEmpty": false
+          },
+          {
+            "Name": "TSTYBM",
+            "IsIndex": true
+          }
+        ]
+      },
+      {
+        "Name": "DJ_TSGL",
+        "Field": [
+          {
+            "Name": "SLBH"
+          },
+          {
+            "Name": "TSTYBM"
           }
         ]
       }

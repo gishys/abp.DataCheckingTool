@@ -17,7 +17,7 @@
     <ProjectReference Include="..\Nm.ExcelHelper\Nm.ExcelHelper.csproj" />
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties datacheckingtooldataoptions_1json__JsonSchema="http://json.schemastore.org/jovo-language-model" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 
 </Project>

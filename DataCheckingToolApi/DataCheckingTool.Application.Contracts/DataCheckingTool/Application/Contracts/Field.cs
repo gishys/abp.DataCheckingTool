@@ -36,7 +36,7 @@ namespace DataCheckingTool.Application.Contracts
             get;
             set;
         }
-        public bool IsKey
+        public bool UniqueValue
         {
             get;
             set;
@@ -46,6 +46,11 @@ namespace DataCheckingTool.Application.Contracts
             get;
             set;
         } = false;
+        public bool CanBeEmpty
+        {
+            get;
+            set;
+        } = true;
         public CheckValueDomainDto<dynamic> CVDomainDto
         {
             get;

@@ -2908,6 +2908,7 @@
         "dependencies": {
           "DataCheckingTool.Application.Contracts": "1.0.0",
           "DataCheckingTool.EntityFrameworkCore": "1.0.0",
+          "Nm.ExcelHelper": "1.0.0",
           "Volo.Abp.AutoMapper": "3.0.5"
         },
         "runtime": {

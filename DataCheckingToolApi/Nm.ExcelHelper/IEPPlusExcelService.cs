@@ -6,6 +6,6 @@ namespace Nm.ExcelHelper
 {
     public interface IEPPlusExcelService
     {
-        void Export(List<dynamic> exportDataList);
+        void Export(IDictionary<string, List<dynamic>> dataList);
     }
 }

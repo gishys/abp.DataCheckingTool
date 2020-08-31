@@ -9,28 +9,31 @@ namespace Nm.ExcelHelper
 {
     public class EPPlusExcelService : IEPPlusExcelService, ITransientDependency
     {
-        public void Export(List<dynamic> exportDataList)
+        public void Export(IDictionary<string, List<dynamic>> dataList)
         {
             var path = @"D:\Test\Test.xlsx";
             FileInfo fileInfo = new FileInfo(path);
             ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
             using (var package = new ExcelPackage(fileInfo))
             {
-                var sheet = package.Workbook.Worksheets.Add("TestSheet");
-                int rowIndex = 1;
-                foreach (var entity in exportDataList)
+                foreach (var data in dataList)
                 {
-                    int columnIndex = 1;
-                    foreach (var property in entity)
+                    var sheet = package.Workbook.Worksheets.Add(data.Key);
+                    int rowIndex = 1;
+                    foreach (var entity in data.Value)
                     {
-                        if (rowIndex == 1)
+                        int columnIndex = 1;
+                        foreach (var property in entity)
                         {
-                            sheet.Cells[rowIndex, columnIndex].Value = property.Key;
+                            if (rowIndex == 1)
+                            {
+                                sheet.Cells[rowIndex, columnIndex].Value = property.Key;
+                            }
+                            sheet.Cells[rowIndex + 1, columnIndex].Value = property.Value;
+                            columnIndex++;
                         }
-                        sheet.Cells[rowIndex + 1, columnIndex].Value = property.Value;
-                        columnIndex++;
+                        rowIndex++;
                     }
-                    rowIndex++;
                 }
                 package.Save();
             }

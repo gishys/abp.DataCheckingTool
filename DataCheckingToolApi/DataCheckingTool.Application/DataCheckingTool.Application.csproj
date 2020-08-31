@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DataCheckingTool.Application.Contracts\DataCheckingTool.Application.Contracts.csproj" />
     <ProjectReference Include="..\DataCheckingTool.EntityFrameworkCore\DataCheckingTool.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Nm.ExcelHelper\Nm.ExcelHelper.csproj" />
   </ItemGroup>
 
 </Project>
